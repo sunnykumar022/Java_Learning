@@ -32,5 +32,24 @@ This project showcases a basic implementation of **multithreading in Java** usin
 - Using `Thread.currentThread().getName()` to control thread behavior
 - Basic loop-based output for characters and numbers
 - Concurrent execution and interleaving of outputs
+- 
+# Java Multithreading Examples
+## 1️⃣ Multi-threading with Runnable (`Multi_thread.java`)
+### 🔍 Overview
+This program demonstrates how to create and run multiple threads using the `Runnable` interface.
+### 🧠 Key Concepts
+- Implementing `Runnable` instead of extending `Thread`
+- Creating threads with `new Thread(Runnable)`
+- Concurrent execution of two tasks:
+  - Class `A` is intended to print characters A–Z (though currently missing `System.out.println(b);`)
+  - Class `B` prints numbers 1–20
+## 2️⃣ Producer-Consumer Model (Producer_Consumer.java)
+🔍 Overview
+This program simulates a basic Producer-Consumer scenario using shared data between two threads.
+🧠 Key Concepts
+- Thread communication via shared object (Product)
+- Producer thread generates data and stores it
+- Consumer thread retrieves and prints the data
+- No synchronization used — good for understanding race conditions and the need for thread-safe operations
 
 
