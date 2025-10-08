@@ -8,6 +8,7 @@ Welcome to my Java learning journey! This repository contains hands-on code snip
 - ✅ Method Overriding (`toString`)
 - ✅ Multithreading and Synchronization
 - ✅ File Structure and Compilation
+- 
 
 ## 🧠 Why This Repo?
 I believe in learning by doing. Each file here reflects a concept I explored, debugged, and understood deeply. It's not just code—it's growth.
